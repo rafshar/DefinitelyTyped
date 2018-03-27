@@ -319,6 +319,7 @@ declare namespace Storage {
      * Options when writing to a file stream.
      */
     interface WriteStreamOptions {
+        contentType?: string;
         gzip?: boolean;
         metadata?: FileMetadata;
         offset?: number;
